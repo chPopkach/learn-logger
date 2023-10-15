@@ -2,7 +2,6 @@
 
 namespace LoggerLearn
 {
-
     public class Program
     {
         static User AddUser(int id, string name, DateOnly birthDay, string login, string password)
