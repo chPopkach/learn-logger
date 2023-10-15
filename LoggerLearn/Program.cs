@@ -2,23 +2,6 @@
 
 namespace LoggerLearn
 {
-    public class Person
-    {
-        public int? Id { get; set; }
-
-        public string? Name { get; set; }
-
-        public DateOnly? BirthDay { get; set; }
-
-        protected Person() { }
-    }
-
-    public class User : Person
-    {
-        public string? Login { get; set; }
-
-        public string? Password { get; set; }
-    }
 
     public class Program
     {
